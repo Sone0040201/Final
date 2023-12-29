@@ -1,0 +1,1452 @@
+html {
+    margin: 0;
+    border: 0;
+    background-image: url(../img/book-ticket/background-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(18, 6, 67, 1);
+}
+
+body {
+    margin: 0;
+    border: 0;
+}
+
+/*header*/
+header {
+    width: 1170px;
+    height: 106px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(63, 69, 122);
+}
+
+.header-title {
+    width: 291px;
+    height: 52px;
+}
+
+.colorblock {
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    background-color: rgb(137, 153, 209);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 43px 922px 0px 37px;
+}
+
+.title-starrail {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 53px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin: 23px 0px 31px 55px;
+    cursor: default;
+}
+
+.media-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding-left: 1005px;
+}
+
+.login-area {
+    position: absolute;
+    width: 55px;
+    height: 31px;
+    background-color: rgba(255, 236, 63, 1);
+    margin: 37px 111px 38px 0px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.login-area:hover {
+    border: 2px solid rgb(142, 77, 0);
+}
+
+.login {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(142, 77, 0);
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-decoration: none;
+    cursor: default;
+}
+
+.register-area {
+    width: 55px;
+    height: 31px;
+    background-color: rgba(134, 134, 134, 1);
+    margin: 37px 30px 38px 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.register-area:hover {
+    border: 2px solid black;
+}
+
+.register {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-decoration: none;
+    cursor: default;
+}
+
+.nav-box {
+    display: none;
+}
+
+/*nav*/
+.nav {
+    background-color: rgba(0, 10, 98, 1);
+    width: 1170px;
+    height: 53px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+
+.nav-list {
+    display: flex;
+    padding-left: 35px;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 17px 0px;
+}
+
+.nav-link {
+    margin-right: 83px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/*content*/
+.bgc {
+    width: 1170px;
+    height: auto;
+    margin: 0px auto;
+    background-color: rgba(63, 69, 122, 0.50) !important;
+    padding-top: 45px;
+}
+
+.book-title {
+    margin-left: 50px;
+    display: flex;
+}
+
+.normal {
+    width: 98px;
+    height: 42px;
+    border-radius: 4px 4px 0px 0px;
+    background-color: #63689A;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.normal h2 {
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    margin: 10px 13.5px 13px 13.5px;
+    cursor: default;
+}
+
+.royal {
+    width: 98px;
+    height: 42px;
+    border-radius: 4px 4px 0px 0px;
+    background-color: #EFC124;
+    box-shadow: 0px -6px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.royal h2 {
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    margin: 10px 13.5px 13px 13.5px;
+    cursor: default;
+}
+
+::placeholder {
+    color: #FFF;
+}
+
+.info-area {
+    width: 1068px;
+    height: 375px;
+    background-color: #63689A;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home {
+    margin: 66px 0px 0px 32px;
+    width: 354px;
+    height: 30px;
+    border-bottom: 1px solid #FFF;
+    position: relative;
+}
+
+.home img {
+    width: 33px;
+    height: 29px;
+    margin-left: 21px;
+}
+
+.home input {
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFF;
+    border: 0;
+    outline: none;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.arrow1 {
+    width: 17px;
+    height: 34px;
+    margin: 65px 0px 0px 93px;
+}
+
+.arrow2 {
+    width: 17px;
+    height: 34px;
+    margin: 65px 0px 0px 39px;
+}
+
+.arrow3 {
+    width: 17px;
+    height: 34px;
+    margin: 65px 0px 0px 39px;
+}
+
+.arrive {
+    margin: 65px 0px 0px 69px;
+    width: 345px;
+    height: 35px;
+    border-bottom: 1px solid #FFF;
+    position: relative;
+}
+
+.arrive img {
+    width: 27px;
+    height: 35px;
+    margin-left: 24px;
+}
+
+.arrive input {
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFF;
+    border: 0;
+    outline: none;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 7px;
+    font-family: sans-serif;
+}
+
+.date {
+    margin-left: 32px;
+    width: 270px;
+    height: 35px;
+    border-bottom: 1px solid #FFF;
+}
+
+.date img {
+    width: 28px;
+    height: 32px;
+    margin-left: 24px;
+}
+
+.date input {
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFF;
+    border: 0;
+    outline: none;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 7px;
+    font-family: sans-serif;
+}
+
+.time {
+    margin-left: 94px;
+    width: 220px;
+    height: 35px;
+    border-bottom: 1px solid #FFF;
+}
+
+.time img {
+    width: 32px;
+    height: 32px;
+    margin-left: 16px;
+}
+
+.time input {
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFF;
+    border: 0;
+    outline: none;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 7px;
+    font-family: sans-serif;
+}
+
+.member {
+    margin-left: 80px;
+    width: 170px;
+    height: 35px;
+    border-bottom: 1px solid #FFF;
+}
+
+.member img {
+    width: 32px;
+    height: 32px;
+    margin-left: 14px;
+}
+
+.member input {
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFF;
+    border: 0;
+    outline: none;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 7px;
+    font-family: sans-serif;
+}
+
+.book-btn {
+    display: flex;
+    width: 297px;
+    height: 51px;
+    border-radius: 6px;
+    background-color: #D4AB16;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    margin: 292px 0px 0px 385px;
+}
+
+.book-btn:hover {
+    border: 2px solid rgba(231, 111, 1, 1);
+    margin-left: 383px;
+}
+
+.book-btn img {
+    width: 42px;
+    height: 42px;
+    margin: 5px 49px 4px 26px;
+}
+
+.book-btn h2 {
+    align-self: center;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 2px;
+    cursor: default;
+}
+
+.goods-area {
+    width: 572px;
+    height: 567px;
+    margin: 0 563px 0px 36px;
+}
+
+.goods-title {
+    width: 491px;
+    height: 91px;
+    background-color: rgba(137, 153, 209, 1);
+    border-radius: 3px 100px 3px 60px;
+    margin: 395px 63px 46px 18px;
+}
+
+.goods-title h2 {
+    position: absolute;
+    margin: 34px 349px 33px 56px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    cursor: default;
+}
+
+.goods-1 {
+    width: 275px;
+    height: 380px;
+    margin: 0px 234px 37px 63px;
+}
+
+.goods-img1 {
+    width: 275px;
+    height: 159px;
+    background-color: rgba(59, 55, 85, 0.7);
+}
+
+.goods-img1 img {
+    margin: 20px 44px 19px 44px;
+}
+
+.goods-name {
+    width: 275px;
+    height: 53px;
+    background-color: rgba(59, 55, 85, 0.7);
+}
+
+.goods-name h3 {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 14px 71px 12px 8px;
+    cursor: default;
+}
+
+.goods-describe {
+    width: 275px;
+    height: 168px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: none;
+}
+
+.goods-describe p {
+    margin: 0;
+    padding: 7px 3px 0px 3px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    cursor: default;
+}
+
+/*footer*/
+footer {
+    height: 60px;
+    background-color: rgb(0, 10, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyrights {
+    color: rgb(77, 137, 255);
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/*768px*/
+@media screen and (max-width:768px) {
+    html {
+        margin: 0;
+        border: 0;
+        background-image: url(../img/book-ticket/background-image768.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(18, 6, 67, 1);
+    }
+
+    /*header*/
+    header {
+        max-width: 768px;
+        height: 88px;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(63, 69, 122);
+    }
+
+    .header-title {
+        max-width: 291px;
+        height: 52px;
+    }
+
+    .colorblock {
+        position: absolute;
+        width: 364px;
+        height: 40px;
+        background-color: rgb(137, 153, 209);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin: 34px 235px 0px 29px;
+    }
+
+    .title-starrail {
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 53px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        margin: 14px 0px 22px 47px;
+        cursor: default;
+    }
+
+    .media-area {
+        max-width: 768px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        padding-left: 665px;
+    }
+
+    .login-area {
+        position: absolute;
+        width: 55px;
+        height: 31px;
+        background-color: rgba(255, 236, 63, 1);
+        margin: 28px 103px 29px 0px;
+        display: flex;
+        justify-content: center;
+        border-radius: 3px;
+    }
+
+    .login-area:hover {
+        border: 2px solid rgb(142, 77, 0);
+    }
+
+    .login {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgb(142, 77, 0);
+        margin-top: 6px;
+        margin-bottom: 6px;
+        text-decoration: none;
+    }
+
+    .register-area {
+        width: 55px;
+        height: 31px;
+        background-color: rgba(134, 134, 134, 1);
+        margin: 28px 23px 29px 25px;
+        display: flex;
+        justify-content: center;
+        border-radius: 3px;
+    }
+
+    .register-area:hover {
+        border: 2px solid black;
+    }
+
+    .register {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        text-decoration: none;
+    }
+
+    /*nav*/
+    .nav {
+        background-color: rgba(0, 10, 98, 1);
+        max-width: 768px;
+        height: 53px;
+        margin: 0px auto;
+    }
+
+    .nav-list {
+        display: flex;
+        padding-left: 35px;
+        margin: 0px;
+    }
+
+    .nav-item {
+        list-style: none;
+        margin: 17px 0px;
+    }
+
+    .nav-link {
+        margin-right: 83px;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        text-align: left;
+        text-decoration: none;
+    }
+
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+
+    /*content*/
+    .bgc {
+        max-width: 768px;
+        margin: 0px auto;
+        background-color: rgba(63, 69, 122, 0.50) !important;
+        padding-top: 45px;
+    }
+
+    .book-title {
+        margin-left: 50px;
+        display: flex;
+    }
+
+    .normal {
+        width: 98px;
+        height: 42px;
+        border-radius: 4px 4px 0px 0px;
+        background-color: #63689A;
+    }
+
+    .normal h2 {
+        color: #FFF;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        margin: 10px 13.5px 13px 13.5px;
+        cursor: default;
+    }
+
+    .royal {
+        width: 98px;
+        height: 42px;
+        border-radius: 4px 4px 0px 0px;
+        background-color: #EFC124;
+    }
+
+    .royal h2 {
+        color: #FFF;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        margin: 10px 13.5px 13px 13.5px;
+        cursor: default;
+    }
+
+    ::placeholder {
+        color: #FFF;
+    }
+
+    .info-area {
+        width: 669px;
+        height: 363px;
+        background-color: #63689A;
+        margin-left: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home {
+        margin: 23px 0px 0px 50px;
+        width: 227px;
+        height: 30px;
+        border-bottom: 1px solid #FFF;
+        position: relative;
+    }
+
+    .home img {
+        width: 33px;
+        height: 29px;
+        margin-left: 13px;
+    }
+
+    .home input {
+        background-color: rgba(0, 0, 0, 0);
+        color: #FFF;
+        border: 0;
+        outline: none;
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-family: sans-serif;
+    }
+
+    .arrow1 {
+        width: 17px;
+        height: 34px;
+        margin: 23px 0px 0px 50px;
+    }
+
+    .arrow2 {
+        display: none;
+    }
+
+    .arrow3 {
+        display: none;
+    }
+
+    .arrive {
+        margin: 23px 0px 0px 50px;
+        width: 227px;
+        height: 35px;
+        border-bottom: 1px solid #FFF;
+        position: relative;
+    }
+
+    .arrive img {
+        width: 27px;
+        height: 35px;
+        margin-left: 13px;
+    }
+
+    .arrive input {
+        background-color: rgba(0, 0, 0, 0);
+        color: #FFF;
+        border: 0;
+        outline: none;
+        position: absolute;
+        margin-left: 18px;
+        margin-top: 8px;
+        font-family: sans-serif;
+    }
+
+    .date {
+        margin-left: 50px;
+        width: 227px;
+        height: 35px;
+        border-bottom: 1px solid #FFF;
+    }
+
+    .date img {
+        width: 28px;
+        height: 32px;
+        margin-left: 13px;
+    }
+
+    .date input {
+        background-color: rgba(0, 0, 0, 0);
+        color: #FFF;
+        border: 0;
+        outline: none;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 7px;
+        font-family: sans-serif;
+    }
+
+    .time {
+        margin-left: 117px;
+        width: 227px;
+        height: 35px;
+        border-bottom: 1px solid #FFF;
+    }
+
+    .time img {
+        width: 32px;
+        height: 32px;
+        margin-left: 16px;
+    }
+
+    .time input {
+        background-color: rgba(0, 0, 0, 0);
+        color: #FFF;
+        border: 0;
+        outline: none;
+        position: absolute;
+        margin-left: 18px;
+        margin-top: 7px;
+        padding: 0px;
+        font-family: sans-serif;
+    }
+
+    .member {
+        margin-left: 50px;
+        width: 170px;
+        height: 35px;
+        border-bottom: 1px solid #FFF;
+    }
+
+    .member img {
+        width: 32px;
+        height: 32px;
+        margin-left: 14px;
+    }
+
+    .member input {
+        background-color: rgba(0, 0, 0, 0);
+        color: #FFF;
+        border: 0;
+        outline: none;
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 7px;
+        font-family: sans-serif;
+    }
+
+    .book-btn {
+        display: flex;
+        width: 216px;
+        height: 51px;
+        border-radius: 6px;
+        background-color: #D4AB16;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        position: absolute;
+        margin: 286px 0px 0px 397px;
+    }
+
+    .book-btn:hover {
+        border: 2px solid rgba(231, 111, 1, 1);
+        margin-left: 395px;
+        margin-top: 284px;
+    }
+
+    .book-btn img {
+        width: 42px;
+        height: 42px;
+        margin: 5px 8px 4px 26px;
+    }
+
+    .book-btn h2 {
+        align-self: center;
+        color: #FFF;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 2px;
+        cursor: default;
+    }
+
+    .goods-area {
+        width: 572px;
+        height: 567px;
+        margin-left: 36px;
+    }
+
+    .goods-title {
+        width: 491px;
+        height: 91px;
+        background-color: rgba(137, 153, 209, 1);
+        border-radius: 3px 100px 3px 60px;
+        margin: 101px 63px 46px 18px;
+    }
+
+    .goods-title h2 {
+        position: absolute;
+        margin: 34px 349px 33px 56px;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        cursor: default;
+    }
+
+    .goods-1 {
+        width: 275px;
+        height: 380px;
+        margin: 0px 234px 37px 63px;
+    }
+
+    .goods-img1 {
+        width: 275px;
+        height: 159px;
+        background-color: rgba(59, 55, 85, 0.7);
+    }
+
+    .goods-img1 img {
+        margin: 20px 44px 19px 44px;
+    }
+
+    .goods-name {
+        width: 275px;
+        height: 53px;
+        background-color: rgba(59, 55, 85, 0.7);
+    }
+
+    .goods-name h3 {
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+        margin: 14px 71px 12px 8px;
+        cursor: default;
+    }
+
+    .goods-describe {
+        width: 275px;
+        height: 168px;
+        background-color: rgba(255, 255, 255, 0.7);
+        display: none;
+    }
+
+    .goods-describe p {
+        margin: 0;
+        padding: 7px 3px 0px 3px;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        cursor: default;
+    }
+}
+
+/*360px*/
+@media screen and (max-width:360px) {
+    html {
+        margin: 0;
+        border: 0;
+        background-image: url(../img/book-ticket/background-image360.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(18, 6, 67, 1);
+    }
+
+    /*header*/
+    header {
+        max-width: 360px;
+        height: 72px;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(63, 69, 122);
+    }
+
+    .header-title {
+        max-width: 262px;
+        height: 55px;
+    }
+
+    .colorblock {
+        position: absolute;
+        width: 248px;
+        height: 29px;
+        background-color: rgb(137, 153, 209);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin: 29px 0px 0px 76px;
+    }
+
+    .title-starrail {
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 53px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        margin: 6px 0px 0px 80px;
+        cursor: default;
+    }
+
+    .media-area {
+        display: none;
+    }
+
+    /*nav*/
+    .nav {
+        display: none;
+    }
+
+    .nav-box {
+        display: block;
+    }
+
+    .line {
+        width: 24px;
+        height: 24px;
+        background-color: rgb(96, 104, 167);
+        cursor: pointer;
+        display: block;
+        padding: 16px;
+        position: absolute;
+        z-index: 2;
+        margin-top: 5px;
+    }
+
+    .line .menu,
+    .line .menu::before,
+    .line .menu::after {
+        background: #ffffff;
+        content: '';
+        display: block;
+        height: 1px;
+        position: absolute;
+        transition: background ease .3s, top ease .3s .3s, transform ease .3s;
+        width: 20px;
+    }
+
+    .line .menu {
+        left: 18px;
+        top: 27px;
+    }
+
+    .line .menu::before {
+        top: -6px;
+    }
+
+    .line .menu::after {
+        top: 6px;
+    }
+
+    /*點選選單變叉叉*/
+    #menu:checked+.line .menu {
+        background: transparent;
+    }
+
+    #menu:checked+.line .menu::before {
+        transform: rotate(45deg);
+    }
+
+    #menu:checked+.line .menu::after {
+        transform: rotate(-45deg);
+    }
+
+    #menu:checked+.line .menu::before,
+    #menu:checked+.line .menu::after {
+        top: 0;
+        transition: top ease .3s, transform ease .3s .3s;
+    }
+
+    /*選單開合*/
+    #menu:checked~.menu-list {
+        height: 250px;
+    }
+
+    .menu-list {
+        width: 360px;
+        height: 0px;
+        margin-top: 72px;
+        position: absolute;
+        z-index: 1;
+        transition: all .6s;
+        overflow: hidden;
+        background-color: rgb(0, 10, 98);
+    }
+
+    /*選單向外推*/
+    .menu-list ul {
+        list-style: none;
+        margin-left: 70px;
+        padding: 0;
+    }
+
+    .menu-list ul>li {
+        display: block;
+        width: 100px;
+    }
+
+    /*隱藏核許框*/
+    input#menu {
+        display: none;
+    }
+
+    .nav_item {
+        list-style: none;
+        margin-bottom: 17px;
+    }
+
+    .nav_link {
+        color: #FFF;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        text-decoration: none;
+    }
+
+    .nav_link:hover {
+        text-decoration: underline;
+    }
+
+    .bgc {
+        max-width: 360px;
+        margin: 0px auto;
+        background-color: rgba(63, 69, 122, 0.50) !important;
+        padding: 43px 0px 0px 0px;
+    }
+
+    /*content*/
+    .book-title {
+        margin-left: 25px;
+        display: flex;
+    }
+
+    .normal {
+        width: 98px;
+        height: 42px;
+        border-radius: 4px 4px 0px 0px;
+        background-color: #63689A;
+    }
+
+    .normal h2 {
+        color: #FFF;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        margin: 10px 13.5px 13px 13.5px;
+        cursor: default;
+    }
+
+    .royal {
+        width: 98px;
+        height: 42px;
+        border-radius: 4px 4px 0px 0px;
+        background-color: #EFC124;
+    }
+
+    .royal h2 {
+        color: #FFF;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        margin: 10px 13.5px 13px 13.5px;
+        cursor: default;
+    }
+
+    ::placeholder {
+        color: #FFF;
+    }
+
+    .info-area {
+        width: 308px;
+        height: 363px;
+        background-color: #63689A;
+        margin-left: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home {
+        margin: 20px 0px 0px 29px;
+        width: 250px;
+        height: 30px;
+        border-bottom: 1px solid #FFF;
+        position: relative;
+    }
+
+    .home img {
+        width: 33px;
+        height: 29px;
+        margin-left: 13px;
+    }
+
+    .home input {
+        background-color: rgba(0, 0, 0, 0);
+        color: #FFF;
+        border: 0;
+        outline: none;
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-family: sans-serif;
+    }
+
+    .arrow1 {
+      display: none;
+    }
+
+    .arrow2 {
+        display: none;
+    }
+
+    .arrow3 {
+        display: none;
+    }
+
+    .arrive {
+        margin: 20px 0px 0px 29px;
+        width: 250px;
+        height: 35px;
+        border-bottom: 1px solid #FFF;
+        position: relative;
+    }
+
+    .arrive img {
+        width: 27px;
+        height: 35px;
+        margin-left: 13px;
+    }
+
+    .arrive input {
+        background-color: rgba(0, 0, 0, 0);
+        color: #FFF;
+        border: 0;
+        outline: none;
+        position: absolute;
+        margin-left: 18px;
+        margin-top: 8px;
+        font-family: sans-serif;
+    }
+
+    .date {
+        margin-left: 29px;
+        margin-top: 20px;
+        width: 250px;
+        height: 35px;
+        border-bottom: 1px solid #FFF;
+    }
+
+    .date img {
+        width: 28px;
+        height: 32px;
+        margin-left: 13px;
+    }
+
+    .date input {
+        background-color: rgba(0, 0, 0, 0);
+        color: #FFF;
+        border: 0;
+        outline: none;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 7px;
+        font-family: sans-serif;
+    }
+
+    .time {
+        margin-left: 29px;
+        margin-top: 20px;
+        width: 250px;
+        height: 35px;
+        border-bottom: 1px solid #FFF;
+    }
+
+    .time img {
+        width: 32px;
+        height: 32px;
+        margin-left: 13px;
+    }
+
+    .time input {
+        background-color: rgba(0, 0, 0, 0);
+        color: #FFF;
+        border: 0;
+        outline: none;
+        position: absolute;
+        margin-left: 18px;
+        margin-top: 7px;
+        padding: 0px;
+        font-family: sans-serif;
+    }
+
+    .member {
+        margin-left: 29px;
+        margin-top: 20px;
+        width: 250px;
+        height: 35px;
+        border-bottom: 1px solid #FFF;
+    }
+
+    .member img {
+        width: 32px;
+        height: 32px;
+        margin-left: 13px;
+    }
+
+    .member input {
+        background-color: rgba(0, 0, 0, 0);
+        color: #FFF;
+        border: 0;
+        outline: none;
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 7px;
+        font-family: sans-serif;
+    }
+
+    .book-btn {
+        display: flex;
+        width: 193px;
+        height: 46px;
+        border-radius: 6px;
+        background-color: #D4AB16;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        position: absolute;
+        margin-top: 302px;
+        margin-left:55px;
+    }
+
+    .book-btn:hover {
+        border: 2px solid rgba(231, 111, 1, 1);
+        margin-left: 53px;
+        margin-top: 300px;
+    }
+
+    .book-btn img {
+        content: url(../img/book-ticket/normalpass360.png);
+        margin: 3px 12px 0px 15px;
+    }
+
+    .book-btn h2 {
+        align-self: center;
+        color: #FFF;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 2px;
+        cursor: default;
+    }
+
+    .goods-area {
+        width: 335px;
+        height: 567px;
+        margin-left: 25px;
+    }
+
+    .goods-title {
+        width: 308px;
+        height: 91px;
+        background-color: rgba(137, 153, 209, 1);
+        border-radius: 3px 100px 3px 60px;
+        margin: 79px 0px 0px 0px;
+    }
+
+    .goods-title h2 {
+        position: absolute;
+        margin: 34px 0px 0px 74px;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        cursor: default;
+    }
+
+    .goods-1 {
+        width: 275px;
+        height: 212px;
+        margin: 46px 0px 0px 16px;
+    }
+
+    .goods-img1 {
+        width: 275px;
+        height: 159px;
+        background-color: rgba(59, 55, 85, 0.7);
+    }
+
+    .goods-img1 img {
+        margin: 20px 44px 19px 44px;
+    }
+
+    .goods-name {
+        width: 275px;
+        height: 53px;
+        background-color: rgba(59, 55, 85, 0.7);
+    }
+
+    .goods-name h3 {
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+        margin: 14px 71px 12px 8px;
+        cursor: default;
+    }
+
+    .goods-describe {
+        width: 275px;
+        height: 168px;
+        background-color: rgba(255, 255, 255, 0.7);
+        display: none;
+    }
+
+    .goods-describe p {
+        margin: 0;
+        padding: 7px 3px 0px 3px;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        cursor: default;
+    }
+}

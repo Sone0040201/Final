@@ -1,0 +1,1151 @@
+html {
+    background-image: url(../img/station-herta/background-herta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    border: 0;
+    width: auto;
+    height: auto;
+    background-color: rgba(18, 6, 67, 1);
+}
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    display: fixed;
+    justify-items: center;
+}
+
+/*header*/
+header {
+    width: 1170px;
+    height: 106px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(63, 69, 122);
+}
+
+.header-title {
+    width: 291px;
+    height: 52px;
+}
+
+.colorblock {
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    background-color: rgb(137, 153, 209);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 43px 922px 0px 37px;
+}
+
+.title-starrail {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 53px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin: 23px 0px 31px 55px;
+    cursor: default;
+}
+
+.media-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding-left: 1005px;
+}
+
+.login-area {
+    position: absolute;
+    width: 55px;
+    height: 31px;
+    background-color: rgba(255, 236, 63, 1);
+    margin: 37px 111px 38px 0px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.login-area:hover {
+    border: 2px solid rgb(142, 77, 0);
+}
+
+.login {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(142, 77, 0);
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-decoration: none;
+}
+
+.register-area {
+    width: 55px;
+    height: 31px;
+    background-color: rgba(134, 134, 134, 1);
+    margin: 37px 30px 38px 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.register-area:hover {
+    border: 2px solid black;
+}
+
+.register {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-decoration: none;
+}
+
+.nav-box {
+    display: none;
+}
+
+/*nav*/
+.nav {
+    background-color: rgba(0, 10, 98, 1);
+    width: 1170px;
+    height: 53px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+
+.nav-list {
+    display: flex;
+    padding-left: 35px;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 17px 0px;
+}
+
+.nav-link {
+    margin-right: 83px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.bgc {
+    width: 1170px;
+    height: 1052px;
+    margin: 0px auto;
+    background-color: rgba(63, 69, 122, 0.50) !important;
+}
+
+/*content*/
+.station-area {
+    position: relative;
+    width: 1170px;
+    height: 304px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.herta {
+    position: absolute;
+    width: 254px;
+    height: 196px;
+    margin: 70px 867px 38px 50px;
+}
+
+.herta:hover {
+    position: absolute;
+    width: 312px;
+    height: 236px;
+    margin-left: 21px;
+}
+
+.arrow1 {
+    position: absolute;
+    width: 32px;
+    height: 43px;
+    margin: 147px 787px 115px 352px;
+}
+
+.jarilo {
+    position: absolute;
+    width: 250px;
+    height: 196px;
+    margin: 70px 490px 38px 431px;
+}
+
+.jarilo:hover {
+    position: absolute;
+    width: 301px;
+    height: 236px;
+    margin-left: 406px;
+}
+
+.arrow2 {
+    position: absolute;
+    width: 32px;
+    height: 43px;
+    margin: 147px 410px 115px 729px;
+}
+
+.luofu {
+    position: absolute;
+    width: 313px;
+    height: 196px;
+    margin: 70px 50px 38px 808px;
+}
+
+.luofu:hover {
+    position: absolute;
+    width: 377px;
+    height: 236px;
+    margin-left: 776px;
+}
+
+.marker1 {
+    position: absolute;
+    content: url(../img/station-herta/map-marker.png);
+    width: 58.694px;
+    height: 78.259px;
+    margin: 55px 964px 171px 148px;
+    display: block;
+}
+.marker2 {
+    position: absolute;
+    content: url(../img/station-herta/map-marker.png);
+    width: 58.694px;
+    height: 78.259px;
+    margin: 59px 585px 167px 527px;
+    display: none;
+}
+
+.marker3 {
+    position: absolute;
+    content: url(../img/station-herta/map-marker.png);
+    width: 58.694px;
+    height: 78.259px;
+    margin: 59px 176px 167px 936px;
+    display: none;
+}
+
+.introduce-area {
+    width: 1170px;
+    height: 619px;
+    margin: 0px auto;
+}
+
+.introduce-title {
+    width: 491px;
+    height: 91px;
+    background-color: rgb(137, 153, 209);
+    border-radius: 3px 100px 3px 60px;
+    margin: 97px 657px 27px 23px;
+}
+
+.introduce-text {
+    width: 86px;
+    height: 24px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    position: absolute;
+    margin: 34px 349px 33px 56px;
+}
+
+.introduce-content {
+    width: 1170px;
+    height: 434px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 442px;
+    height: 325px;
+    margin: 0px 46px 0px 48px;
+}
+
+.content-title {
+    width: 183px;
+    height: 29px;
+    margin: 0px 130px 27px 129px;
+}
+
+.station-name {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+.content-text1 {
+    width: 442px;
+    height: 117px;
+    margin-bottom: 11px;
+}
+
+.content-describe1 {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.more {
+    text-decoration: underline;
+}
+
+.text-line {
+    width: 442px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 27px;
+}
+
+.content-text2 {
+    width: 442px;
+    height: 114px;
+}
+
+.content-describe2 {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.introduce-img {
+    width: 609px;
+    height: 346px;
+    margin: 11px 26px 77px 0px;
+}
+
+.herta-img {
+    position: absolute;
+    display: block;
+}
+
+.belobog-img {
+    position: absolute;
+    display: none;
+}
+
+.luofu-img {
+    position: absolute;
+    display: none;
+}
+
+/*footer*/
+footer {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(0, 10, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyrights {
+    color: rgb(77, 137, 255);
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/*768px*/
+@media screen and (max-width:768px) {
+    html {
+        margin: 0;
+        border: 0;
+        background-image: url(../img/station-herta/background-herta768.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(18, 6, 67, 1);
+    }
+
+    /*header*/
+    header {
+        max-width: 768px;
+        height: 88px;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(63, 69, 122);
+    }
+
+    .header-title {
+        max-width: 291px;
+        height: 52px;
+    }
+
+    .colorblock {
+        position: absolute;
+        width: 364px;
+        height: 40px;
+        background-color: rgb(137, 153, 209);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin: 34px 235px 0px 29px;
+    }
+
+    .title-starrail {
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 53px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        margin: 14px 0px 22px 47px;
+        cursor: default;
+    }
+
+    .media-area {
+        max-width: 768px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        padding-left: 665px;
+    }
+
+    .login-area {
+        position: absolute;
+        width: 55px;
+        height: 31px;
+        background-color: rgba(255, 236, 63, 1);
+        margin: 28px 103px 29px 0px;
+        display: flex;
+        justify-content: center;
+        border-radius: 3px;
+    }
+
+    .login-area:hover {
+        border: 2px solid rgb(142, 77, 0);
+    }
+
+    .login {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgb(142, 77, 0);
+        margin-top: 6px;
+        margin-bottom: 6px;
+        text-decoration: none;
+    }
+
+    .register-area {
+        width: 55px;
+        height: 31px;
+        background-color: rgba(134, 134, 134, 1);
+        margin: 28px 23px 29px 25px;
+        display: flex;
+        justify-content: center;
+        border-radius: 3px;
+    }
+
+    .register-area:hover {
+        border: 2px solid black;
+    }
+
+    .register {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        text-decoration: none;
+    }
+
+    /*nav*/
+    .nav {
+        background-color: rgba(0, 10, 98, 1);
+        max-width: 768px;
+        height: 53px;
+        margin: 0px auto;
+    }
+
+    .nav-list {
+        display: flex;
+        padding-left: 35px;
+        margin: 0px;
+    }
+
+    .nav-item {
+        list-style: none;
+        margin: 17px 0px;
+    }
+
+    .nav-link {
+        margin-right: 83px;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        text-align: left;
+        text-decoration: none;
+    }
+
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+
+    .bgc {
+        max-width: 768px;
+        height: auto;
+        margin: 0px auto;
+        background-color: rgba(63, 69, 122, 0.50) !important;
+        padding: 35 px 0px 0px 0px;
+    }
+
+    /*content*/
+    .station-area {
+        max-width: 768px;
+        height: 200px;
+        margin: 0px auto;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .herta {
+        position: absolute;
+        content: url(../img/station-herta/station-herta768.png);
+        width: 172px;
+        height: 130px;
+        margin: 52px 0px 0px 34px;
+    }
+
+    .herta:hover {
+        width: 172px;
+        height: 130px;
+        margin: 52px 0px 0px 34px;
+    }
+
+    .arrow1 {
+        position: absolute;
+        content: url(../img/station-herta/arrow-image768.png);
+        width: 22px;
+        height: 29px;
+        margin: 105px 0px 66px 231px;
+    }
+
+    .jarilo {
+        position: absolute;
+        content: url(../img/station-herta/station-jarilo768.png);
+        width: 162px;
+        height: 130px;
+        margin: 52px 0px 0px 293px;
+    }
+
+    .jarilo:hover {
+        width: 162px;
+        height: 130px;
+        margin: 52px 0px 0px 293px;
+    }
+
+    .arrow2 {
+        position: absolute;
+        content: url(../img/station-herta/arrow-image768.png);
+        width: 22px;
+        height: 29px;
+        margin: 105px 0px 66px 478px;
+    }
+
+    .luofu {
+        position: absolute;
+        content: url(../img/station-herta/station-luofu768.png);
+        width: 199px;
+        height: 130px;
+        margin: 52px 0px 0px 540px;
+    }
+
+    .luofu:hover {
+        width: 199px;
+        height: 130px;
+        margin: 52px 0px 0px 540px;
+    }
+
+    .marker1 {
+        position: absolute;
+        content: url(../img/station-herta/map-marker768.png);
+        width: 48px;
+        height: 61px;
+        margin: 0px 0px 70px 90px;
+        display: block;
+    }
+    .marker2 {
+        position: absolute;
+        content: url(../img/station-herta/map-marker768.png);
+        width: 48px;
+        height: 61px;
+        margin: 0px 0px 70px 345px;
+        display: none;
+    }
+
+    .marker3 {
+        position: absolute;
+        content: url(../img/station-herta/map-marker768.png);
+        width: 48px;
+        height: 61px;
+        margin: 0px 0px 70px 613px;
+        display: none;
+    }
+
+    .introduce-area {
+        max-width: 768px;
+        height: 806px;
+        margin: 69px auto 0px auto;
+    }
+
+    .introduce-title {
+        width: 491px;
+        height: 91px;
+        background-color: rgb(137, 153, 209);
+        border-radius: 3px 100px 3px 60px;
+        position: absolute;
+        margin: 367px 0px 0px 65px;
+    }
+
+    .introduce-text {
+        width: 86px;
+        height: 24px;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        position: absolute;
+        margin: 34px 349px 33px 56px;
+    }
+
+    .introduce-content {
+        max-width: 768px;
+        height: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .sidebar {
+        position: absolute;
+        width: 644px;
+        height: 300px;
+        margin: 508px 0px 0px 65px;
+    }
+
+    .content-title {
+        width: 183px;
+        height: 29px;
+        margin: 0px 130px 27px 129px;
+    }
+
+    .station-name {
+        font-family: sans-serif;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 29px;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        margin: 0px;
+    }
+
+    .content-text1 {
+        width: 644px;
+        height: 100px;
+        margin-bottom: 11px;
+    }
+
+    .content-describe1 {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: rgb(255, 255, 255);
+    }
+
+    .more {
+        text-decoration: underline;
+    }
+
+    .text-line {
+        width: 644px;
+        height: 1px;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 24px;
+    }
+
+    .content-text2 {
+        width: 644px;
+        height: 98px;
+    }
+
+    .content-describe2 {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: rgb(255, 255, 255);
+    }
+
+    .introduce-img {
+        position: absolute;
+        width: 609px;
+        height: 346px;
+        margin: 6px 0px 0px 79px;
+    }
+
+}
+
+/*360px*/
+@media screen and (max-width:360px) {
+    html {
+        margin: 0;
+        border: 0;
+
+        background-color: rgba(18, 6, 67, 1);
+    }
+
+    body{
+        background-image: url(../img/station-herta/background-herta360.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /*header*/
+    header {
+        max-width: 360px;
+        height: 72px;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(63, 69, 122);
+    }
+
+    .header-title {
+        max-width: 262px;
+        height: 55px;
+    }
+
+    .colorblock {
+        position: absolute;
+        width: 248px;
+        height: 29px;
+        background-color: rgb(137, 153, 209);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin: 29px 0px 0px 76px;
+    }
+
+    .title-starrail {
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 53px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        margin: 6px 0px 0px 80px;
+        cursor: default;
+    }
+
+    .media-area {
+        display: none;
+    }
+
+    /*nav*/
+    .nav {
+        display: none;
+    }
+
+    .nav-box {
+        display: block;
+    }
+
+    .line {
+        width: 24px;
+        height: 24px;
+        background-color: rgb(96, 104, 167);
+        cursor: pointer;
+        display: block;
+        padding: 16px;
+        position: absolute;
+        z-index: 2;
+        margin-top: 5px;
+    }
+
+    .line .menu,
+    .line .menu::before,
+    .line .menu::after {
+        background: #ffffff;
+        content: '';
+        display: block;
+        height: 1px;
+        position: absolute;
+        transition: background ease .3s, top ease .3s .3s, transform ease .3s;
+        width: 20px;
+    }
+
+    .line .menu {
+        left: 18px;
+        top: 27px;
+    }
+
+    .line .menu::before {
+        top: -6px;
+    }
+
+    .line .menu::after {
+        top: 6px;
+    }
+
+    /*點選選單變叉叉*/
+    #menu:checked+.line .menu {
+        background: transparent;
+    }
+
+    #menu:checked+.line .menu::before {
+        transform: rotate(45deg);
+    }
+
+    #menu:checked+.line .menu::after {
+        transform: rotate(-45deg);
+    }
+
+    #menu:checked+.line .menu::before,
+    #menu:checked+.line .menu::after {
+        top: 0;
+        transition: top ease .3s, transform ease .3s .3s;
+    }
+
+    /*選單開合*/
+    #menu:checked~.menu-list {
+        height: 250px;
+    }
+
+    .menu-list {
+        width: 360px;
+        height: 0px;
+        margin-top: 72px;
+        position: absolute;
+        z-index: 1;
+        transition: all .6s;
+        overflow: hidden;
+        background-color: rgb(0, 10, 98);
+    }
+
+    /*選單向外推*/
+    .menu-list ul {
+        list-style: none;
+        margin-left: 70px;
+        padding: 0;
+    }
+
+    .menu-list ul>li {
+        display: block;
+        width: 100px;
+    }
+
+    /*隱藏核許框*/
+    input#menu {
+        display: none;
+    }
+
+    .nav_item {
+        list-style: none;
+        margin-bottom: 17px;
+    }
+
+    .nav_link {
+        color: #FFF;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        text-decoration: none;
+    }
+
+    .nav_link:hover {
+        text-decoration: underline;
+    }
+
+    .bgc {
+        max-width: 360px;
+        height: 1150px;
+        margin: 0px auto;
+        background-color: rgba(63, 69, 122, 0.50) !important;
+        padding: 0px;
+    }
+
+    /*content*/
+    .station-area {
+        max-width: 360px;
+        height: 155px;
+        margin: 0px auto;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .herta {
+        position: absolute;
+        content: url(../img/station-herta/station-herta360.png);
+        width: 87px;
+        height: 87px;
+        margin: 52px 0px 0px 19px;
+    }
+
+    .herta:hover {
+        width: 87px;
+        height: 87px;
+        margin: 52px 0px 0px 19px;
+    }
+
+    .arrow1 {
+        display: none;
+    }
+
+    .jarilo {
+        position: absolute;
+        content: url(../img/station-herta/station-jarilo360.png);
+        width: 87px;
+        height: 87px;
+        margin: 52px 0px 0px 137px;
+    }
+
+    .jarilo:hover {
+        width: 87px;
+        height: 87px;
+        margin: 52px 0px 0px 137px;
+    }
+
+    .arrow2 {
+        display: none;
+    }
+
+    .luofu {
+        position: absolute;
+        content: url(../img/station-herta/station-luofu360.png);
+        width: 87px;
+        height: 87px;
+        margin: 52px 0px 0px 255px;
+    }
+
+    .luofu:hover {
+        width: 87px;
+        height: 87px;
+        margin: 52px 0px 0px 255px;
+    }
+
+    .marker1 {
+        position: absolute;
+        content: url(../img/station-herta/map-marker768.png);
+        width: 48px;
+        height: 61px;
+        margin: 0px 0px 30px 40px;
+        display: block;
+    }
+    .marker2 {
+        position: absolute;
+        content: url(../img/station-herta/map-marker768.png);
+        width: 48px;
+        height: 61px;
+        margin: 0px 0px 30px 158px;
+        display: none;
+    }
+
+    .marker3 {
+        position: absolute;
+        content: url(../img/station-herta/map-marker768.png);
+        width: 48px;
+        height: 61px;
+        margin: 0px 0px 30px 276px;
+        display: none;
+    }
+
+
+    .introduce-area {
+        max-width: 360px;
+        height: 800px;
+        margin: 36px auto 0px auto;
+    }
+
+    .introduce-title {
+        width: 331px;
+        height: 91px;
+        background-color: rgb(137, 153, 209);
+        border-radius: 3px 100px 3px 60px;
+        position: absolute;
+        margin: 251px 0px 0px 15px;
+    }
+
+    .introduce-text {
+        width: 86px;
+        height: 24px;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        position: absolute;
+        margin: 34px 349px 33px 56px;
+    }
+
+    .introduce-content {
+        max-width: 360px;
+        height: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sidebar {
+        position: absolute;
+        width: 345px;
+        height: 434px;
+        margin: 373px 0px 0px 15px;
+    }
+
+    .content-title {
+        width: 183px;
+        height: 29px;
+        margin: 0px 101px 27px 90px;
+    }
+
+    .station-name {
+        font-family: sans-serif;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 29px;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        margin: 0px;
+    }
+
+    .content-text1 {
+        width: 324px;
+        height: 156px;
+        margin-bottom: 30px;
+    }
+
+    .content-describe1 {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: rgb(255, 255, 255);
+    }
+
+    .more {
+        text-decoration: underline;
+    }
+
+    .text-line {
+        width: 324px;
+        height: 1px;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 24px;
+    }
+
+    .content-text2 {
+        width: 324px;
+        height: 152px;
+    }
+
+    .content-describe2 {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: rgb(255, 255, 255);
+    }
+
+    .introduce-img {
+        position: absolute;
+        content: url(../img/station-herta/introduce-herta360.png);
+        width: 342px;
+        height: 195px;
+        margin: 36px 0px 0px 11px;
+    }
+
+}
